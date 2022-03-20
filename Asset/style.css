@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Grandstander&family=Homemade+Apple&family=Merienda+One&family=Mochiy+Pop+P+One&family=Poppins:wght@500&family=Yellowtail&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Architects Daughter", cursive;
+  color: white;
+  background-image: url(/Asset/BG.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.nav-link {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.icons {
+  width: 30px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 990px) {
+  .navbar-dark .navbar-brand {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+}
